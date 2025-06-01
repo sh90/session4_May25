@@ -75,7 +75,7 @@ User input: "{user_input}"
     return final_response.choices[0].message.content
 
 # Example usage
-# UAL83
+# UA2402
 user_question = input("Ask me about a flight: ")
 answer = gpt4o_mini_flight_agent(user_question)
 print("\n[Final Answer]")
